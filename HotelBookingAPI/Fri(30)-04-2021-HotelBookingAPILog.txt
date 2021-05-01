@@ -1,0 +1,4 @@
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index, ,    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HotelBookingAPI.Logic.Functions.Utility.InsertHotelBooking(HotelBookingSave msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 127

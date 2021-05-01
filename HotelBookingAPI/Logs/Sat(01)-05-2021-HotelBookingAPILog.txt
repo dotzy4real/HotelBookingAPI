@@ -1,0 +1,287 @@
+01/05/2021 08:25:32 AM      Calculated Hours for ReservationID 1200: 479
+01/05/2021 08:29:19 AM      Room Type Does Not Exist in this Hotel. Available Room Types are: deluxe, regular, palatial, regular, ,    at HotelBookingAPI.Logic.Functions.Utility.ExecuteHotelBookFetch(Int64 ReservationID) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 146
+   at HotelBookingAPI.Logic.Functions.Utility.GetOverDueRate(Int64 ReservationID, HotelBookingCalculate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 198
+01/05/2021 08:29:31 AM      Calculated Hours for ReservationID 1200: 479
+01/05/2021 08:29:36 AM      Calculated Hours for ReservationID 1201: 3359
+01/05/2021 08:29:43 AM      Room Type Does Not Exist in this Hotel. Available Room Types are: deluxe, regular, palatial, regular, ,    at HotelBookingAPI.Logic.Functions.Utility.ExecuteHotelBookFetch(Int64 ReservationID) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 146
+   at HotelBookingAPI.Logic.Functions.Utility.GetOverDueRate(Int64 ReservationID, HotelBookingCalculate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 198
+01/05/2021 08:38:10 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1202
+01/05/2021 08:38:10 AM      Room Type Does Not Exist in this Hotel. Available Room Types are: deluxe, regular, palatial, regular, ,    at HotelBookingAPI.Logic.Functions.Utility.ExecuteHotelBookFetch(Int64 ReservationID) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 147
+   at HotelBookingAPI.Logic.Functions.Utility.GetOverDueRate(Int64 ReservationID, HotelBookingCalculate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 199
+01/05/2021 08:55:50 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 08:55:50 AM      Calculated Hours for ReservationID 1203: 2399
+01/05/2021 08:56:28 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1202
+01/05/2021 08:56:28 AM      Room Type Does Not Exist in this Hotel. Available Room Types are: deluxe, regular, palatial, regular, ,    at HotelBookingAPI.Logic.Functions.Utility.ExecuteHotelBookFetch(Int64 ReservationID) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 147
+   at HotelBookingAPI.Logic.Functions.Utility.GetHotelBooking(Int64 ReservationID) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 128
+01/05/2021 08:59:43 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 09:01:07 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:01:07 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-04-30 12:00","ExpectedCheckOutTime":"2021-05-01 11:00"}}
+01/05/2021 09:01:25 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:03:03 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:08:46 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:08:46 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-04-30 12:00","ExpectedCheckOutTime":"2021-04-30 13:00"}}
+01/05/2021 09:08:57 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 09:08:58 AM      Calculated Hours for ReservationID 1203: 2399
+01/05/2021 09:09:25 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 09:09:25 AM      Calculated Hours for ReservationID 1203: 2399
+01/05/2021 09:10:47 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:10:47 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:10:55 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:10:55 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:11:02 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:11:02 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:11:15 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:11:15 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:11:26 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:11:26 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:15:14 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:15:14 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:15:22 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:15:22 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:15:59 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:15:59 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-01 12:00","ExpectedCheckOutTime":"2021-05-01 13:00"}}
+01/05/2021 09:16:07 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:16:22 AM      List of Fetched Bookings: [{"ReservationId":"1200","RoomType":"deluxe","CustomerId":"12323","HourlyRate":"230000","Status":"paid","ExpectedCheckInTime":"2020-12-12 12:00","ExpectedCheckOutTime":"2021-01-01 11:00"},{"ReservationId":"1201","RoomType":"palatial","CustomerId":"12325","HourlyRate":"560000","Status":"paid","ExpectedCheckInTime":"2021-05-01 12:00","ExpectedCheckOutTime":"2021-05-01 13:00"},{"ReservationId":"1203","RoomType":"regular","CustomerId":"12331","HourlyRate":"150000","Status":"paid","ExpectedCheckInTime":"2020-12-22 12:00","ExpectedCheckOutTime":"2021-04-01 11:00"}]
+01/05/2021 09:16:46 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:16:56 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:16:56 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:17:13 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:17:13 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:17:52 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:17:52 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:22:34 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:22:34 AM      Day of Week: Sunday
+01/05/2021 09:22:34 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:25:01 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:25:01 AM      Day of Week: Sunday
+01/05/2021 09:25:01 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:25:09 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:25:09 AM      Day of Week: Saturday
+01/05/2021 09:25:09 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:39:27 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:39:27 AM      Day of Week: Saturday
+01/05/2021 09:39:27 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:39:27 AM      Difference in Check out time by hours: 1.35
+01/05/2021 09:42:48 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:42:48 AM      Day of Week: Saturday
+01/05/2021 09:42:48 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:42:48 AM      Difference in Check out time by hours: 1.35
+01/05/2021 09:42:48 AM      Initial Overdue Hours: 1
+01/05/2021 09:42:48 AM      Final Overdu Hours: 1
+01/05/2021 09:56:28 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:56:28 AM      Day of Week: Saturday
+01/05/2021 09:56:28 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:56:28 AM      Difference in Check out time by hours: 1.35
+01/05/2021 09:56:28 AM      Initial Overdue Hours: 2
+01/05/2021 09:56:28 AM      Final Overdu Hours: 2
+01/05/2021 09:56:40 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:56:40 AM      Day of Week: Saturday
+01/05/2021 09:56:40 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:56:40 AM      Difference in Check out time by hours: 1
+01/05/2021 09:56:40 AM      Initial Overdue Hours: 1
+01/05/2021 09:56:40 AM      Final Overdu Hours: 1
+01/05/2021 09:56:45 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:56:45 AM      Day of Week: Saturday
+01/05/2021 09:56:45 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:56:45 AM      Difference in Check out time by hours: 1.01666666666667
+01/05/2021 09:56:45 AM      Initial Overdue Hours: 2
+01/05/2021 09:56:45 AM      Final Overdu Hours: 2
+01/05/2021 09:56:51 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:56:51 AM      Day of Week: Saturday
+01/05/2021 09:56:51 AM      Calculated Hours for ReservationID 1201: 1
+01/05/2021 09:56:51 AM      Difference in Check out time by hours: 0.0166666666666667
+01/05/2021 09:56:51 AM      Initial Overdue Hours: 1
+01/05/2021 09:56:51 AM      Final Overdu Hours: 1
+01/05/2021 09:57:01 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:57:01 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-01 12:00","ExpectedCheckOutTime":"2021-05-01 13:02"}}
+01/05/2021 09:57:09 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:57:09 AM      Day of Week: Saturday
+01/05/2021 09:57:09 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 09:57:09 AM      Difference in Check out time by hours: -0.0166666666666667
+01/05/2021 09:57:19 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:57:19 AM      Day of Week: Saturday
+01/05/2021 09:57:19 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 09:57:19 AM      Difference in Check out time by hours: 0.816666666666667
+01/05/2021 09:57:19 AM      Initial Overdue Hours: 1
+01/05/2021 09:57:19 AM      Final Overdu Hours: 0
+01/05/2021 09:57:30 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:57:30 AM      Day of Week: Saturday
+01/05/2021 09:57:30 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 09:57:30 AM      Difference in Check out time by hours: 0.983333333333333
+01/05/2021 09:57:30 AM      Initial Overdue Hours: 1
+01/05/2021 09:57:30 AM      Final Overdu Hours: 0
+01/05/2021 09:57:41 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:57:41 AM      Day of Week: Saturday
+01/05/2021 09:57:41 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 09:57:41 AM      Difference in Check out time by hours: 1.98333333333333
+01/05/2021 09:57:41 AM      Initial Overdue Hours: 2
+01/05/2021 09:57:41 AM      Final Overdu Hours: 1
+01/05/2021 09:57:49 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 09:57:49 AM      Day of Week: Saturday
+01/05/2021 09:57:49 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 09:57:49 AM      Difference in Check out time by hours: 0.983333333333333
+01/05/2021 09:57:49 AM      Initial Overdue Hours: 1
+01/05/2021 09:57:49 AM      Final Overdu Hours: 0
+01/05/2021 10:02:19 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:02:19 AM      Day of Week: Saturday
+01/05/2021 10:02:19 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:02:19 AM      Difference in Check out time by hours: 1.1
+01/05/2021 10:02:19 AM      Initial Overdue Hours: 2
+01/05/2021 10:02:19 AM      Final Overdu Hours: 1
+01/05/2021 10:02:37 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:02:37 AM      Day of Week: Saturday
+01/05/2021 10:02:37 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:02:37 AM      Difference in Check out time by hours: 1
+01/05/2021 10:02:37 AM      Initial Overdue Hours: 1
+01/05/2021 10:02:37 AM      Final Overdu Hours: 0
+01/05/2021 10:02:43 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:02:43 AM      Day of Week: Saturday
+01/05/2021 10:02:43 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:02:43 AM      Difference in Check out time by hours: 1.01666666666667
+01/05/2021 10:02:43 AM      Initial Overdue Hours: 2
+01/05/2021 10:02:43 AM      Final Overdu Hours: 1
+01/05/2021 10:03:28 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:03:28 AM      Day of Week: Saturday
+01/05/2021 10:03:28 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:03:28 AM      Difference in Check out time by hours: 1.01666666666667
+01/05/2021 10:03:28 AM      Initial Overdue Hours: 2
+01/05/2021 10:03:28 AM      Final Overdu Hours: 1
+01/05/2021 10:03:37 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:03:37 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-01 12:00","ExpectedCheckOutTime":"2021-05-01 13:22"}}
+01/05/2021 10:03:40 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:03:40 AM      Day of Week: Saturday
+01/05/2021 10:03:40 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:03:40 AM      Difference in Check out time by hours: 0.683333333333333
+01/05/2021 10:03:40 AM      Initial Overdue Hours: 1
+01/05/2021 10:03:40 AM      Final Overdu Hours: 0
+01/05/2021 10:05:20 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:05:20 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-07 12:00","ExpectedCheckOutTime":"2021-05-06 13:22"}}
+01/05/2021 10:05:26 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:05:26 AM      Day of Week: Saturday
+01/05/2021 10:05:26 AM      Calculated Hours for ReservationID 1201: -22
+01/05/2021 10:05:26 AM      Difference in Check out time by hours: -119.316666666667
+01/05/2021 10:05:48 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:05:48 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-06 12:00","ExpectedCheckOutTime":"2021-05-06 13:22"}}
+01/05/2021 10:06:28 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:06:28 AM      Day of Week: Thursday
+01/05/2021 10:06:28 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:06:28 AM      Difference in Check out time by hours: 0.683333333333333
+01/05/2021 10:06:28 AM      Initial Overdue Hours: 1
+01/05/2021 10:06:28 AM      Final Overdu Hours: 0
+01/05/2021 10:10:15 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:10:23 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:10:23 AM      Day of Week: Thursday
+01/05/2021 10:10:23 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:10:23 AM      Difference in Check out time by hours: 0.683333333333333
+01/05/2021 10:10:23 AM      Initial Overdue Hours: 1
+01/05/2021 10:10:23 AM      Final Overdu Hours: 0
+01/05/2021 10:10:46 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:10:46 AM      Day of Week: Thursday
+01/05/2021 10:10:46 AM      Calculated Hours for ReservationID 1201: 2
+01/05/2021 10:10:46 AM      Difference in Check out time by hours: 1.01666666666667
+01/05/2021 10:10:46 AM      Initial Overdue Hours: 2
+01/05/2021 10:10:46 AM      Final Overdu Hours: 1
+01/05/2021 10:11:16 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 10:11:35 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 10:11:35 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 12:00","ExpectedCheckOutTime":"2021-05-02 13:00"}}
+01/05/2021 10:11:41 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 10:11:41 AM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 12:00","ExpectedCheckOutTime":"2021-05-02 13:00"}}
+01/05/2021 10:12:41 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 10:13:40 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 10:13:40 AM      Day of Week: Sunday
+01/05/2021 10:13:40 AM      Calculated Hours for ReservationID 1200: 1
+01/05/2021 10:13:40 AM      Difference in Check out time by hours: 1.38333333333333
+01/05/2021 10:13:40 AM      Initial Overdue Hours: 2
+01/05/2021 10:13:40 AM      Final Overdu Hours: 2
+01/05/2021 10:14:02 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 10:14:02 AM      Day of Week: Sunday
+01/05/2021 10:14:02 AM      Calculated Hours for ReservationID 1200: 1
+01/05/2021 10:14:02 AM      Difference in Check out time by hours: 0.383333333333333
+01/05/2021 10:14:02 AM      Initial Overdue Hours: 1
+01/05/2021 10:14:02 AM      Final Overdu Hours: 1
+01/05/2021 10:14:22 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 10:14:22 AM      Day of Week: Sunday
+01/05/2021 10:14:22 AM      Calculated Hours for ReservationID 1200: 1
+01/05/2021 10:14:22 AM      Difference in Check out time by hours: 0
+01/05/2021 10:14:29 AM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 10:14:29 AM      Day of Week: Sunday
+01/05/2021 10:14:29 AM      Calculated Hours for ReservationID 1200: 1
+01/05/2021 10:14:29 AM      Difference in Check out time by hours: 0.0166666666666667
+01/05/2021 10:14:29 AM      Initial Overdue Hours: 1
+01/05/2021 10:14:29 AM      Final Overdu Hours: 1
+01/05/2021 10:15:38 AM      List of Fetched Bookings: [{"ReservationId":"1200","RoomType":"deluxe","CustomerId":"12323","HourlyRate":"230000","Status":"paid","ExpectedCheckInTime":"2021-05-02 12:00","ExpectedCheckOutTime":"2021-05-02 13:00"},{"ReservationId":"1201","RoomType":"palatial","CustomerId":"12325","HourlyRate":"560000","Status":"paid","ExpectedCheckInTime":"2021-05-06 12:00","ExpectedCheckOutTime":"2021-05-06 13:22"},{"ReservationId":"1203","RoomType":"regular","CustomerId":"12331","HourlyRate":"150000","Status":"paid","ExpectedCheckInTime":"2020-12-22 12:00","ExpectedCheckOutTime":"2021-04-01 11:00"}]
+01/05/2021 01:15:05 PM      List of Fetched Bookings: [{"ReservationId":"1200","RoomType":"deluxe","CustomerId":"12323","HourlyRate":"230000","Status":"paid","ExpectedCheckInTime":"2021-05-02 17:00","ExpectedCheckOutTime":"2021-05-02 18:00","Error":null},{"ReservationId":"1201","RoomType":"palatial","CustomerId":"12325","HourlyRate":"560000","Status":"paid","ExpectedCheckInTime":"2021-05-06 12:00","ExpectedCheckOutTime":"2021-05-06 13:22","Error":null},{"ReservationId":"1203","RoomType":"regular","CustomerId":"12331","HourlyRate":"150000","Status":"paid","ExpectedCheckInTime":"2020-12-22 12:00","ExpectedCheckOutTime":"2021-04-01 11:00","Error":null},{"ReservationId":"1204","RoomType":"regular","CustomerId":"12335","HourlyRate":"150000","Status":"paid","ExpectedCheckInTime":"2021-03-22 14:00","ExpectedCheckOutTime":"2021-03-22 16:00","Error":null}]
+01/05/2021 01:15:31 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1206
+01/05/2021 01:15:44 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1204
+01/05/2021 01:15:54 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 12007
+01/05/2021 01:15:54 PM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 17:00","ExpectedCheckOutTime":"2021-05-02 18:00","Error":null}}
+01/05/2021 01:15:54 PM      Incorrect syntax near '='., ,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at HotelBookingAPI.Logic.Data.SQLClient.UpdateHotelBooking(String query, HotelBookingUpdate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Data\SQLClient.cs:line 146
+   at HotelBookingAPI.Logic.Functions.Utility.UpdateHotelBooking(Int64 ReservationID, HotelBookingUpdate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 182
+01/05/2021 01:23:36 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1200
+01/05/2021 01:23:36 PM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 17:00","ExpectedCheckOutTime":"2021-05-02 18:00","Error":null}}
+01/05/2021 01:23:44 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:23:44 PM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 17:00","ExpectedCheckOutTime":"2021-05-02 18:00","Error":null}}
+01/05/2021 01:23:59 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1208
+01/05/2021 01:23:59 PM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 17:00","ExpectedCheckOutTime":"2021-05-02 18:00","Error":null}}
+01/05/2021 01:23:59 PM      Incorrect syntax near '='., ,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at HotelBookingAPI.Logic.Data.SQLClient.UpdateHotelBooking(String query, HotelBookingUpdate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Data\SQLClient.cs:line 146
+   at HotelBookingAPI.Logic.Functions.Utility.UpdateHotelBooking(Int64 ReservationID, HotelBookingUpdate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 182
+01/05/2021 01:28:31 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1208
+01/05/2021 01:28:45 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1205
+01/05/2021 01:28:51 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1202
+01/05/2021 01:28:57 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:29:04 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 01:29:09 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:29:13 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1207
+01/05/2021 01:29:41 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1202
+01/05/2021 01:39:13 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1202
+01/05/2021 01:39:20 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1201
+01/05/2021 01:39:33 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:39:43 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:39:43 PM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 17:00","ExpectedCheckOutTime":"2021-05-02 18:00","Error":null}}
+01/05/2021 01:39:53 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:39:53 PM      Update Msg Details: {"TransactionID":"00000000-0000-0000-0000-000000000000","Patch":{"ReservationId":null,"RoomType":null,"CustomerId":null,"HourlyRate":null,"Status":"paid","ExpectedCheckInTime":"2021-05-02 16:00","ExpectedCheckOutTime":"2021-05-02 18:00","Error":null}}
+01/05/2021 01:40:03 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1202
+01/05/2021 01:40:10 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:40:10 PM      Day of Week: Sunday
+01/05/2021 01:40:10 PM      Calculated Hours for ReservationID 1203: 2
+01/05/2021 01:40:10 PM      Difference in Check out time by hours: 5.01666666666667
+01/05/2021 01:40:10 PM      Initial Overdue Hours: 6
+01/05/2021 01:40:10 PM      Final Overdu Hours: 6
+01/05/2021 01:40:37 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:40:38 PM      The DateTime represented by the string is not supported in calendar System.Globalization.GregorianCalendar., ,    at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at HotelBookingAPI.Logic.Functions.Utility.GetOverDueRate(Int64 ReservationID, HotelBookingCalculate msg) in C:\Users\APPZONE -PC\Documents\HotelBookingAPI\HotelBookingAPI.Logic\Functions\Utility.cs:line 236
+01/05/2021 01:40:47 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:40:47 PM      Day of Week: Sunday
+01/05/2021 01:40:47 PM      Calculated Hours for ReservationID 1203: 2
+01/05/2021 01:40:47 PM      Difference in Check out time by hours: 0.0166666666666667
+01/05/2021 01:40:47 PM      Initial Overdue Hours: 1
+01/05/2021 01:40:47 PM      Final Overdu Hours: 1
+01/05/2021 01:41:27 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:41:27 PM      Day of Week: Sunday
+01/05/2021 01:41:27 PM      Calculated Hours for ReservationID 1203: 2
+01/05/2021 01:41:27 PM      Difference in Check out time by hours: 0.85
+01/05/2021 01:41:27 PM      Initial Overdue Hours: 1
+01/05/2021 01:41:27 PM      Final Overdu Hours: 1
+01/05/2021 01:41:35 PM      Booking Fetch Query: select a.ReservationID, b.RoomTypeName, a.CustomerID, b.HourlyRate, a.Status, a.ExpectedCheckIn, a.ExpectedCheckOut from CheckTime as a, RoomTypes as b where a.RoomTypeID = b.RoomTypeID and a.ReservationID = 1203
+01/05/2021 01:41:35 PM      Day of Week: Sunday
+01/05/2021 01:41:35 PM      Calculated Hours for ReservationID 1203: 2
+01/05/2021 01:41:35 PM      Difference in Check out time by hours: 1.85
+01/05/2021 01:41:35 PM      Initial Overdue Hours: 2
+01/05/2021 01:41:35 PM      Final Overdu Hours: 2
